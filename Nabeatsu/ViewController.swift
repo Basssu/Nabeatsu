@@ -50,7 +50,10 @@ class ViewController: UIViewController {
             faceLabel.text = "(゜o゜)"
         }
     }
-
+    @IBAction func clearButton() {
+        number = 0
+    }
+    
 
 }
 
